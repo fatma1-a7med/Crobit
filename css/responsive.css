@@ -1,0 +1,1184 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    p{
+        font-size: 19px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    /* Start Header Section*/
+        .navbar{
+            width: 42vw;
+            margin-left: 8.5em;
+        }
+        .navbar li a{
+            font-size: 17px;
+        }
+        .headershape{
+            width:42%;
+            height: 470px;
+        }
+        .headershape img{
+            width:100%;
+            height: 500px;
+            right: 8em;
+        }
+        .headercontent h1,p{
+            width: 390px;
+        }
+    /* End Header Section*/
+    /* Start Features Section*/
+        .featuresshapes .background{
+            width: 700px;
+            height: 650px;
+        }
+        .featuresshape1{
+            left: 30em;
+            top: 980px;
+        }
+        .featuresshape2 img{
+            left: 430px;
+            top: 1380px;
+        }
+        .card h3{
+            font-size: 21px;
+        }
+        .card p{
+            width: 200px;
+            margin-left: 25px;
+            font-size: 16px;
+            text-align: center;
+        }
+        .card1 , .card2{
+            top: 800px;
+        }
+        .card3 , .card4{
+            top: 1140px;
+        }
+        .card5 , .card6{
+            top: 1480px;
+        }
+        .card1 , .card3 , .card5{
+            left: 35px;
+        }
+        .card2 , .card4 , .card6{
+            left: 300px;
+        }
+        .featurescontent{
+            top:1120px ;
+            right: 1em;
+        }
+        .featurescontent h1{
+            width: 340px;
+            text-align: justify;
+        } 
+        .featurescontent p{
+            width: 340px; 
+        } 
+    /* End Features Section*/
+    /* Start Project Section*/
+        .satellite{
+            width: 80%;
+            margin-top: 300px;
+            margin-left: 2em;
+        }
+        .satellite .satimg img{
+            width: 45vw;
+            height: 450px;
+        }
+        .satcontent{
+            margin-top: 110px;
+            margin-right: 2em;
+        }
+        .satcontent h1{
+            width: 44.5vw;
+        }
+        .shape1{
+            top: 1990px;
+            left: 1em;
+        }
+        .shape2{
+            top: 2200px;
+            left: 21em;
+        }
+    /* End Project Section*/
+    /* Start APP Section*/
+        .app .circle{
+            width: 90px;
+            height: 90px;
+        } 
+        .shape, .appcontent{       
+            width: 80%;
+        }
+        .appcontent{
+            text-align: justify;
+        }
+        .appcontent h1{
+            font-size: 35px;
+            width: 50%;
+        }
+    /* End APP Section*/
+    /* Start Download Section*/
+        .download{
+            margin-top: 150px;
+            width: 80%;
+            margin-bottom: 170px;
+        }
+        .downloadimg img{
+            width: 600px;
+            height:380px ;
+            margin-left: -25px;
+            margin-top: -40px;
+        }
+    /* End Download Section*/
+    /* Start contact Section*/
+        .contact{
+          width: 95%;
+          margin: auto;
+        }
+        .contact_background{
+            width: 920px;
+        }
+        .rightside{
+            margin-left: 520px;
+            width: 400px;   
+        }
+        .email{
+            width: 400px;
+            position: relative;
+            left:-40px; 
+            top: 10px;
+        }
+        .contact .btn{
+            position: relative;
+            top: -44px;
+            left: 210px;
+        }
+       .leftside{
+            margin-left: 3em;
+        }
+        .dotsshape{
+            top: 3520px;
+        }
+        .othershape{
+            left: 1em;
+            top: 3790px;
+        }
+    /* End Contact Section*/
+    /* Start Footer Section*/
+        footer{
+            height: 430px;
+        }
+        .div1 p{
+            width: 380px;
+            margin-left: 1em;
+        }
+        .div1{
+            margin-right: 30px;
+        }
+        .div2, .div3 ,.div4{
+            width: 180px;
+            margin-top: 45px;
+        } 
+        .div3{
+            margin-left: 25px;
+        }
+        footer p{
+            color: white;
+            font-size: 16px;
+        }
+        .parent {
+            display:flex;
+            justify-content: space-around;
+            align-content: space-around;
+        }
+    /* End Footer Section*/
+  } 
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+   @media only screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        overflow-x:hidden ;
+    }
+    p{
+    font-size: 19px;
+    }
+    h1{
+    font-size: 38px;
+    }
+
+    /* Start Header Section*/
+    .navbar{
+        width: 63vw;
+        margin-left: 16em;  
+    }
+    .navbar li a{
+        font-size: 18px;
+    }
+    .headershape{
+        width:69%;
+        height: 500px;        
+        z-index: -1;
+    }
+    .headershape img{
+        width:96%;
+        height: 500px;
+        top: 90px;
+        right: 180px;
+    }
+    .headercontent{
+        margin-top: 570px;
+        width: 96vw;
+        margin-left: 0px;
+    }
+    .headercontent h1 , .headercontent p{
+        margin: auto;
+    }
+    .headercontent h1,p{
+        width: 510px;
+    }
+    .headercontent a{
+        text-decoration: none;
+        display: grid;
+    }
+    .headercontent button{
+       margin: auto;
+    }
+    
+/* End Header Section*/
+ /* Start Features Section*/
+    .features{
+        margin-top: 210px;
+    }
+    .featuresshapes .background{
+        width: 90vw;
+        height: 610px;
+        margin-top: 380px;
+    }
+
+    .featuresshape1{
+        left: 66vw;
+        top: 1600px;
+    }
+    .featuresshape2 img{
+        left: 44vw;
+        top: 1870px;
+    }
+    .card1 , .card2{
+        top: 1300px;
+    }
+    .card3 , .card4{
+        top: 1640px;
+    }
+    .card5 , .card6{
+        top: 1980px;
+    }
+    .card1 , .card3 , .card5{
+        left: 5vw;
+    }
+    .card2 , .card4 , .card6{
+        left: 40vw;
+    }
+    .featurescontent {
+        width: 96vw;
+        margin-left: 0px;
+    
+    }
+    .featurescontent h1 , .featurescontent p{
+        margin: auto;
+        width: 510px;
+    } 
+    /* End Features Section*/
+    /* Start Project Section*/
+    .satellite{
+       display: block;
+        margin-top: 280px;
+        width: 510px;
+        margin-left: 0px;
+    }
+    .satellite .satimg{
+        width: 96vw;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .satellite .satimg img{
+        width: 560px;
+        height: 420px;
+        margin: auto;
+        text-align: center;
+    }
+    .satcontent{
+        width: 96vw;
+        margin-left: 0px;
+    }
+    .satcontent h1 , .satcontent p{
+       width: 510px;
+       margin: auto;
+    }
+    .shape1{
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        top: 2350px;
+        left: 14vw;
+    }
+    .shape2{
+        width: 130px;
+        height: 130px;
+        top: 2500px;
+        left: 73vw;
+    }
+    /* End Project Section*/
+    /* Start APP Section*/
+        .app{
+            margin-top: 100px;
+        }
+        .app .circle{
+            width: 70px;
+            height: 70px;
+            font-size: 20px;
+        }
+      
+        .shape,.appcontent{
+            width: 600px;
+            text-align: center;
+            margin: auto;
+        }
+        .app hr{
+            width: 194px;
+            margin-top:38px;
+        }
+        .appcontent{
+            text-align: justify;
+            width: 600px;
+        }
+        .appcontent h1{
+            font-size:26px;
+            width: 260px;
+        }
+        .appcontent p{
+            width: 260px;          
+            font-size:16px;
+        }
+        /* End APP Section*/
+        /* Start Download Section*/
+        .download{
+            display: block;
+            margin-top: 30px;
+        }
+        .downloadcontent{
+            width: 96vw;
+            text-align: center;
+        }
+        .download h1{
+            font-size: 55px;
+        }
+        .download p{
+           width: 370px;
+           margin: auto;
+        }
+        .download button{
+            margin-right: 50px;
+        }
+       .downloadimg{
+            width: 96vw;
+            text-align: center;
+       }
+        .downloadimg img{
+            width: 600px;
+            height:380px ;
+        }
+        /* End Download Section*/
+        /* Start contact Section*/
+        .contact{
+            margin-top: 170px;
+        }
+        .contact_background{
+            width: 700px;
+            height: 280px;
+            margin: auto;
+        }
+        .rightside{
+            margin-left: 379px;
+            width: 320px;
+            height: 280px;
+        }
+        .email{
+            width: 340px;
+            height: 50px;
+            margin-top: 106px;
+            position: relative;
+            left: -50px;
+        }
+        .contact .btn{
+            position: relative;
+            top: -45px;
+            left: 174px;
+            height: 40px;
+            width: 110px;
+            font-size: 14px;
+        }
+        .leftside{
+            margin-left: 50px;
+        }
+        .leftside h1{
+            font-size: 27px;
+        }
+        .leftside p{  
+            width: 230px;
+            font-size: 16px;
+            margin-top: 6px;
+        }
+        .dotsshape{
+            position: absolute;
+            right: 10px;
+            top: 4270px;
+        }
+        .othershape{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            left: 0px;
+            top: 4550px;
+        }
+        /* End Contact Section*/
+        /* Start Footer Section*/
+        footer{
+            height: 100%;
+        }
+        .div1 p{
+            width: 230px;
+            margin-left: 10px;
+        }
+        .icons img{
+            width: 40px;
+            height: 40px;
+        }
+        .div1{
+            margin-right: 10px;
+        }
+        .div2, .div3 ,.div4{
+            width: 100px;   
+        }
+        .div2{
+            width: 210px;
+        }
+        .div3{
+            margin-left: -22px;
+        }
+        footer p{
+            color: white;
+            font-size: 14px;
+        } 
+        /* End Footer Section*/
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    p{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 33px;
+    }
+   
+    /* Start Header Section*/
+    .navbar{
+        width: 63vw;
+        margin-left: 11em;  
+    }
+    .navbar li a{
+        font-size: 16px;
+    }
+    .headershape{
+        width:75%;
+        height: 500px;        
+        z-index: -1;
+    }
+    .headershape img{
+        width:92%;
+        height: 500px;
+        top: 90px;
+        right: 150px;
+    }
+    .headercontent{
+        margin-top: 580px;
+        width: 96vw;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .headercontent h1, .featurescontent h1 , .satcontent h1{
+        font-size: 33px;
+        width: 400px;
+        margin: auto;
+    }
+    .featurescontent p , .headercontent p , .satcontent p {
+        width: 400px;
+        margin: auto;
+    }
+    .headercontent a{
+        text-decoration: none;
+        display: grid;
+    }
+    .headercontent button{
+       margin: auto;
+    }
+    
+/* End Header Section*/
+ /* Start Features Section*/
+    .features{
+        margin-top: 80px;
+    }
+    .featuresshapes .background{
+        width: 100vw;
+        height: 620px;
+        margin-left: -100px;
+        margin-top: 380px;
+    }
+    .featuresshape1{
+
+        width: 164px;
+        height: 164px;
+        left: 67vw;
+        top: 1430px;
+    }
+    .featuresshape2 img{
+        left: 29vw;
+        top: 1680px;
+    }
+    .card{
+        width: 220px;
+        height: 307px;
+    }
+    .card h3{
+        font-size: 21px;
+    
+    }
+    .card1 , .card2{
+        top: 1160px;
+    }
+    .card3 , .card4{
+        top: 1475px;
+    }
+    .card5 , .card6{
+        top: 1790px;
+    }
+    .card1 , .card3 , .card5{
+        left: 4vw;
+    }
+    .card2 , .card4 , .card6{
+        left: 42vw;
+    }
+    .featurescontent{
+        top:950px;
+        width: 96vw;
+    }
+  
+    /* End Features Section*/
+    /* Start Project Section*/
+    .satellite{
+       display: block;
+        margin-top: 230px;
+        width: 500px;
+    }
+    .satellite .satimg{
+        width:500px;
+        margin: auto;
+    }
+    .satellite .satimg img{
+        width: 500px;
+        height: 500px;
+        margin-top: 50px;
+    }
+    .satcontent{
+        width: 95vw;
+        margin-left: -42px;
+    }
+   
+    .shape1{
+        width: 130px;
+        height: 130px;
+        top: 2170px;
+        left: 8vw;
+    }
+    .shape2{
+        width: 110px;
+        height: 110px;
+        top: 2300px;
+        left: 70vw;
+    }
+    /* End Project Section*/
+    /* Start APP Section*/
+        .app{
+            margin-top: 100px;
+        }
+        .app .circle{
+            width: 70px;
+            height: 70px;
+            font-size: 20px;
+        }
+        .shape,.appcontent{
+            width: 500px;
+        }
+        .app hr{
+            width: 160px;
+            margin-top:38px;
+        }
+        .appcontent{
+            width: 500px;
+        }
+        .appcontent h1{
+            font-size:23px;
+            width: 230px;
+        }
+        .appcontent p{
+            width: 240px;
+            margin-top: 5px;
+            font-size:15px;
+        }
+        /* End APP Section*/
+        /* Start Download Section*/
+        .download{
+            display: block;
+            margin-top: 20px;
+        }
+        .downloadcontent{
+            margin-left: 120px;
+        }
+        .download h1{
+            font-size: 55px;
+        }
+        .download p{
+            width: 370px;
+
+        } 
+        .downloadimg img{
+             width: 600px;
+             height:380px ;
+             margin-left: -20px; 	
+        }
+        
+        /* End Download Section*/
+        /* Start contact Section*/
+        .contact{
+            margin-top: 140px;
+        }
+        .contact_background{
+            width: 530px;
+            height: 280px;
+            margin: auto;
+        }
+        .rightside{
+            margin-left: 244px;
+            width: 285px;
+            height: 280px;
+        }
+        .email{
+            width: 275px;
+            height: 50px;
+            margin-top: 106px;
+            position: absolute;
+            left: 278px;
+        }
+        .email:focus{
+            background-color: white;
+            padding-left: 15px;
+    
+        }
+        .email:placeholder-shown{
+            padding-left: 15px;   
+        }
+        .contact .btn{
+            position: relative;
+            top: 111px;
+            left: 172px;
+            height: 40px;
+            width: 100px;
+            font-size: 14px;
+        }
+        .leftside{
+            margin-left: 10px;
+            margin-top: -190px;
+        }
+        .leftside h1{
+            font-size: 25px;
+        }
+        .leftside p{
+            width: 200px;
+            font-size: 15px;
+            margin-top: 6px;
+            margin-left: 10px;
+        }
+        .dotsshape{
+            position: absolute;
+            right: 10px;
+            top:4120px;
+        }
+        .othershape{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            left: 0px;
+            top: 4360px;
+        }
+        /* End Contact Section*/
+        /* Start Footer Section*/
+        footer{
+            height: 100%;  
+        }
+        .div1 p{
+            width: 230px;
+            margin-left: 10px;
+        }
+        .icons img{
+            width: 40px;
+            height: 40px;
+        }
+        .div1{
+            margin-right: 10px;
+        }
+        .div2, .div3 ,.div4{
+            width: 100px;  
+        }
+        .div2{
+            width: 210px;
+        }
+        .div3{
+            margin-left: -22px;
+        }
+        footer p{
+            color: white;
+            font-size: 14px;
+        }   
+        /* End Footer Section*/
+ }
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    *{
+        overflow-x: hidden;
+    }
+   
+    
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 23px;
+    }
+    /* Start Header Section*/
+    .navbar{
+        width: 73vw;
+        margin-left:5em;
+        margin-top: -45px;  
+        overflow-y: hidden;
+    }
+   
+    .navbar li a{
+        font-size: 13px;
+        
+    }
+    #active{
+        overflow-y: hidden;
+    }
+    .headershape{
+        width:100%;
+        height: 480px;        
+        z-index: -1;
+        overflow-y: hidden;
+    }
+   
+    header #logo{
+        width: 60px;
+        height: 60px;
+        margin-left: 2%;
+    }
+    .headershape img{
+        width:96%;
+        height: 480px;
+        top: 70px;
+        right: 20px;
+        
+    }
+    .headercontent{
+        margin-top: 560px;
+        width: 99vw;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .headercontent h1, .featurescontent h1 , .satcontent h1{
+        font-size: 25px;
+        width: 300px;
+        margin: auto;
+    }
+    .featurescontent p , .headercontent p , .satcontent p {
+        width: 300px;
+        margin: auto;
+    }
+    .headercontent a{
+        text-decoration: none;
+        display: grid;
+    }
+    .headercontent button{
+       margin: auto;
+    }
+    
+/* End Header Section*/
+ /* Start Features Section*/
+    .features{
+        margin-top: 80px;
+    }
+    .featuresshapes .background{
+        width: 121vw;
+        height: 635px;
+        margin-left: -100px;
+        margin-top: 380px;
+    }
+    .featuresshape1{
+       
+        left: 55vw;
+        top: 1840px;
+    }
+    .featuresshape2 img{
+        left: -36vw;
+        top: 1800px;
+        transform: rotate(90deg);
+    }
+    .card{
+        width: 160px;
+        height: 250px;
+    }
+    .card .imgfeature{
+        width: 90px;
+        height:90px;
+        background: #CFA841;
+        border-radius: 20px;
+        margin-top: -20px;
+    } 
+    .card .imgfeature img{
+        margin-top: 23px;
+        width: 50px;
+        height:50px;
+    }
+  
+    .card h3{
+        font-size: 15px;
+    }
+    .card p{
+        font-size: 11px;
+        width: 140px;
+        text-align: center;
+        margin-left: 0px;
+        margin: auto;
+    }
+    .card1 , .card2{
+        top: 1180px;
+    }
+    .card3 , .card4{
+        top: 1435px;
+    }
+    .card5 , .card6{
+        top: 1690px;
+    }
+    .card1 , .card3 , .card5{
+        left: 3vw;
+    }
+    .card2 , .card4 , .card6{
+        left: 48vw;
+    }
+    .featurescontent{
+        top:950px;
+        width: 99vw;
+        margin-left: 0px;
+        text-align: center;
+       
+    }
+    /* End Features Section*/
+    /* Start Project Section*/
+    .satellite{
+    
+        display: block;
+        margin-top: 230px;
+        width: 99vw;
+        margin-left: 0px;
+    }
+    .satellite .satimg{
+        width:330px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .satellite .satimg img{
+        width: 330px;
+        height: 330px;
+        
+    }
+    .satcontent{
+        width: 99vw;
+       
+    }
+    .shape1{
+        width: 120px;
+        height: 120px;
+        top: 2270px;
+        left: 3vw;
+    }
+    .shape2{
+        width: 100px;
+        height: 100px;
+        top: 2300px;
+        left: 70vw;
+    }
+    /* End Project Section*/
+    /* Start APP Section*/
+        .app{
+            margin-top: 100px;
+            width: 99vw;   
+        }
+        .app .circle{
+            width: 60px;
+            height: 60px;
+            font-size: 20px;
+        }
+        .shape,.appcontent{
+            width: 350px;
+            
+        }
+        .appcontent{
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+        }
+        .app hr{
+            width: 90px;
+            margin-top:34px;  
+        }
+        
+        .appcontent h1{
+            font-size:24px;
+            width: 158px;
+            text-align:justify;
+            margin-left: 10px;
+        }
+        .appcontent p{
+            width: 140px;
+            margin-top: 5px;
+            font-size:13px;
+        }
+        /* End APP Section*/
+        /* Start Download Section*/
+
+        .download{
+            display: block;
+            margin-top: 30px;
+            width: 99vw;
+          
+        }
+        .downloadcontent{
+            width: 99vw;
+            margin-left: 0px;
+            margin-top: 40px;
+            
+        }
+        .downloadcontent h1{
+            font-size: 40px;
+         
+        }
+        .downloadcontent h4,h1 {
+            margin-left: 10vw;
+        } 
+        .download p{
+            width: 300px;
+            margin:auto;
+        }
+        .downloadimg{
+            width: 99vw;
+            overflow-y: hidden;
+       }
+        .downloadimg img{
+            width: 98%;
+            height:100% ;
+            margin-left: 0px;	
+        }
+        .downloadcontent button{
+           margin-left: 10vw;
+        }
+        /* End Download Section*/
+        /* Start contact Section*/
+        .contact{
+            margin-top: 140px;
+            overflow-x: hidden;
+        }
+        .contact_background{
+            width: 360px;
+            height: 260px;
+            display: block;
+            overflow: hidden;
+        }
+        .email{
+            width: 320px;
+            height: 50px;
+            margin-top: 150px;
+            position: absolute;
+            left: 30px;
+        }
+        .email:focus{
+            background-color: white;
+            padding-left: 15px;
+        }
+        .email:placeholder-shown{
+            padding-left: 15px;   
+        }
+        .contact .btn{
+            position: absolute;
+            top: 4070px;
+            left: 244px;
+            height: 40px;
+            width: 100px;
+            font-size: 14px;
+        }
+        .leftside{
+            position: absolute;
+            top: 4135px;
+            left: -45px;
+            width: 280px;
+            
+        }
+        .rightside{
+            margin-left: 0px;
+            background-color: transparent;
+            width: 10px;
+            height: 10px;
+        }
+        .leftside h1{
+            font-size: 25px;
+            margin-left: 0px;
+            
+        }
+        .leftside p{  
+            width: 270px;
+            font-size: 15px;
+            margin-top: 16px;
+        }
+        .dotsshape{
+            right: 2vw;
+            top:3860px;
+        }
+        .othershape{
+            width: 150px;
+            height: 150px;
+            left: 0px;
+            top: 4090px;
+        }
+        /* End Contact Section*/
+        /* Start Footer Section*/
+        
+    footer{
+        width: 100%;
+        height: 100%;
+        background: #4BA26A;
+        margin-top: 150px;
+        color: white;
+
+    }
+
+    .div1 p{
+      width: 98%;
+        margin-bottom: 20px;
+    }
+
+    footer img{
+        width: 90px;
+        height: 90px;
+    }
+    .icons{
+        margin-top: -40px;
+        width: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+
+    }
+   
+    .div1{
+        margin-left: 50px;
+    }
+    .div1 img{
+        margin-left: -10px;
+    }
+    .icons img{
+        width: 40px;
+        height: 40px;
+        margin-left: 0px;   
+    }
+    .div2, .div3 ,.div4{
+        width: 220px;
+        overflow-x: hidden;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+    .div2 p, .div3 p ,.div4 p{
+        margin-top: -5px;
+    }
+    .div3{
+        float: left;
+    }
+    .div4{
+        float: right;
+        margin-top: -150px;
+        padding-left: 80px;
+    }
+    footer p{
+        color: white;
+        font-size: 14px;
+    }
+    
+    .parent {
+        display:block;
+    }
+    footer #copyright{
+      
+        margin-bottom: 15px;
+        width: 190px;
+        overflow-x: hidden;
+         
+    }
+        /* End Footer Section*/
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
