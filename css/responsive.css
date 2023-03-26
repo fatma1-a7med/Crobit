@@ -1002,7 +1002,8 @@
             width: 99vw;
             margin-left: 0px;
             margin-top: 40px;
-            
+            margin: auto;
+          
         }
         .downloadcontent h1{
             font-size: 40px;
@@ -1018,15 +1019,16 @@
         .downloadimg{
             width: 99vw;
             overflow-y: hidden;
+            
+            
        }
         .downloadimg img{
             width: 98%;
             height:100% ;
             margin-left: 0px;	
         }
-        .downloadcontent button{
-           margin-left: 10vw;
-        }
+       
+        
         /* End Download Section*/
         /* Start contact Section*/
         .contact{
@@ -1054,25 +1056,25 @@
             padding-left: 15px;   
         }
         .contact .btn{
-            position: absolute;
-            top: 4080px;
-            left: 244px;
+            position: relative;
+            top: 155px;
+            left: 236px;
             height: 40px;
             width: 100px;
             font-size: 14px;
         }
         .leftside{
-            position: absolute;
-            top: 4160px;
-            left: -45px;
-            width: 280px;
+            position: relative;
+            top: -30px;
+            right: 35px;
+            width: 230px;
             
         }
         .rightside{
             margin-left: 0px;
             background-color: transparent;
-            width: 10px;
-            height: 10px;
+            width: 360px;
+            height: 260px;
         }
         .leftside h1{
             font-size: 25px;
@@ -1086,13 +1088,13 @@
         }
         .dotsshape{
             right: 2vw;
-            top:3860px;
+            top:3830px;
         }
         .othershape{
             width: 150px;
             height: 150px;
             left: 0px;
-            top: 4090px;
+            top: 4060px;
         }
         /* End Contact Section*/
         /* Start Footer Section*/
