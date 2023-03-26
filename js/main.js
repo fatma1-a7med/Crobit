@@ -63,11 +63,3 @@ contact_now.addEventListener("click", function(){
     }
 });
 
-/* .email:focus{
-    background-color: white;
-    padding-left: 30px;
-
-}
-.email:placeholder-shown{
-    padding-left: 30px;   
-} */

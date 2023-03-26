@@ -1,6 +1,6 @@
 
 /* Large devices (laptops/desktops, 1200px and up to 1600px) */
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
 
     p{
         font-size: 21px; 
