@@ -3,6 +3,8 @@
  let circle3=document.querySelector('#circle3');
  let appcontent_h1=document.querySelector('.appcontent_h1');
  let appcontent_p=document.querySelector('.appcontent_p');
+ let contact_now=document.querySelector('.contact_now'); 
+ let email=document.querySelector('input[type="email"]'); 
 
  circle1.addEventListener("click", function(){
     appcontent_h1.innerHTML = "Log in then determine the location and select the field";
@@ -53,3 +55,19 @@
             circle2.style.border='2px solid #4BA26A';
             
             });
+
+contact_now.addEventListener("click", function(){
+    var getValue= document.getElementById("the_email");
+    if (getValue.value !="") {
+        getValue.value = "";
+    }
+});
+
+/* .email:focus{
+    background-color: white;
+    padding-left: 30px;
+
+}
+.email:placeholder-shown{
+    padding-left: 30px;   
+} */

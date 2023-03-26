@@ -1,4 +1,156 @@
-/* Large devices (laptops/desktops, 992px and up) */
+
+/* Large devices (laptops/desktops, 1200px and up to 1600px) */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
+    p{
+        font-size: 21px; 
+    }
+    h1{
+        font-size: 42px;
+    }
+    /* Start Header Section*/
+        .headershape{
+            width:46%;
+            height: 470px;
+        }
+        .headershape img{
+            width:90%;
+            height: 540px;
+            right: 12em;
+        }
+        .headercontent h1,p{
+            width: 600px;
+        }
+    /* End Header Section*/
+    /* Start Features Section*/ 
+        .featurescontent{
+            top:1050px ;
+            right: 6em;
+        }
+        .featuresshape2 img{
+            left: 660px;
+            top: 1330px;
+        }
+        .card1, .card4{
+            left: 4vw;
+            }
+        .card2, .card5{
+            left: 22vw;
+        }
+        .card2{
+            top: 840px;
+                
+        }
+        .card3, .card6{
+            left: 40vw;
+        }
+        .card5{
+            top: 1300px;
+        }
+
+    /* End Features Section*/
+    /* Start Project Section*/ 
+        .satcontent h1{
+            width: 44.5vw;
+        }
+        .shape1{
+            top: 1770px;
+            left: 1em;
+        }
+        .shape2{
+            top: 1940px;
+            left: 35em;
+        }
+    /* End Project Section*/
+    /* Start APP Section*/
+        .app hr{
+            width: 31vw;
+        }
+        .appcontent p{
+            width: 440px;
+        }
+    /* End APP Section*/
+    /* Start Download Section*/
+        .download{
+            width: 80%;
+            margin-bottom: 90px;
+        }
+        .downloadimg img{
+            margin-left: 60px;
+            margin-top: -40px;
+        }
+    /* End Download Section*/
+    /* Start contact Section*/
+        .contact{
+          width: 97%;
+          margin: auto;
+        }
+        .contact_background{
+            width: 80%;
+        }
+        .rightside{
+            margin-left: 46vw;
+            width: 40%;   
+        }
+        .email{
+            width: 440px;
+            position: relative;
+            left:-50px; 
+            top: 10px;
+        }
+        .contact .btn{
+            position: relative;
+            top: -44px;
+            left: 245px;
+        }
+       .leftside{
+            margin-left: 3em;
+        }
+        .dotsshape{
+            top: 3350px;
+            right: 7vw;
+        }
+        .othershape{
+            left: 8em;
+            top: 3570px;
+        }
+    /* End Contact Section*/
+    /* Start Footer Section*/
+        footer{
+            height: 430px;
+        }
+        .div1 p{
+            width: 380px;
+            margin-left: 1em;
+        }
+        .div1{
+            margin-right: 30px;
+        }
+        .div2, .div3 ,.div4{
+            width: 180px;
+            margin-top: 45px;
+        } 
+        .div3{
+            margin-left: 25px;
+        }
+        footer p{
+            color: white;
+            font-size: 16px;
+        }
+        .parent {
+            display:flex;
+            justify-content: space-around;
+            align-content: space-around;
+        }
+    /* End Footer Section*/
+  } 
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up to 1200px) */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
     p{
@@ -1053,6 +1205,11 @@
             padding-left: 15px;
         }
         .email:placeholder-shown{
+            padding-left: 15px;   
+            background-color: white;
+
+        }
+        .email::placeholder{
             padding-left: 15px;   
         }
         .contact .btn{

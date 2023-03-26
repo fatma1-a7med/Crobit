@@ -164,29 +164,26 @@ h1{
     #backyellow{
         background-color: #F6C602;
     }
-    .card1{
-    top: 760px;
+    .card1, .card3{
+        top: 760px;
+    }
+    .card4, .card6{
+        top:1140px;
+    }
+    
+    .card1, .card4{
     left: 10px;
     }
     .card2{
         top: 840px;
         left: 270px;
     }
-    .card3{
-        top: 760px;
+    .card3, .card6{
         left: 530px;
-    }
-    .card4{
-        top:1140px;
-        left: 10px;
     }
     .card5{
         top: 1300px;
         left: 270px;
-    }
-    .card6{
-        top: 1140px;
-        left: 530px;
     }
     .featurescontent{
         position: absolute;
