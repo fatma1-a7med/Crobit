@@ -362,6 +362,9 @@ h1{
         margin-top: 125px;
         position: absolute;
         left: 720px; 
+        padding-left: 30px;
+
+
     }
     .email:focus{
         background-color: white;
@@ -370,6 +373,9 @@ h1{
     }
     .email:placeholder-shown{
         padding-left: 30px;   
+    }
+    .email::placeholder{
+        margin-left: 30px;   
     }
     .contact .btn{
         position: relative;
