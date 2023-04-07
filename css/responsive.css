@@ -97,11 +97,13 @@
             position: relative;
             left:-50px; 
             top: 10px;
+       
+
         }
         .contact .btn{
             position: relative;
             top: -44px;
-            left: 245px;
+            left: 243px;
         }
        .leftside{
             margin-left: 3em;
